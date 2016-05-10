@@ -1,0 +1,16 @@
+title: Tifig
+email: tonisuter@me.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: tonisuter
+github_username:  tonisuter
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude: [README.md, Gemfile, Gemfile.lock]
+gems:
+  - octopress-autoprefixer
+
+sass:
+    style: :compressed
