@@ -15,7 +15,7 @@ RUN make install
 RUN gem install jekyll
 RUN gem install octopress-autoprefixer
 
-# Build and add website
+# Build and add tifig.net website
 ADD . /tmp/tifig
 WORKDIR /tmp/tifig
 ENV LC_ALL C.UTF-8
