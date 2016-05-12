@@ -20,8 +20,18 @@
 
     &,
     &:visited {
-        color: #E14C35;
+        color: #FAFAFA;
     }
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.site-logo {
+  margin: -5px 5px 0px 0px;
+  width:38px;
+  height:38px;
 }
 
 .site-nav {
@@ -29,6 +39,7 @@
     line-height: 56px;
 
     .page-link {
+        font-weight:600;
         color: #FAFAFA;
         line-height: $base-line-height;
 
@@ -36,6 +47,16 @@
         &:not(:last-child) {
             margin-right: 20px;
         }
+    }
+
+    .page-link:hover {
+      text-decoration: none;
+      color: #E14C35;
+    }
+
+    .page-link.active {
+      color: #E14C35;
+      font-weight:600;
     }
 }
 
@@ -91,12 +112,6 @@
 
 .post-title {
     font-size: 24px;
-
-    line-height: 1;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
 }
 
 .post-content {
