@@ -8,3 +8,7 @@
  3. Find out the IP address of the local docker vm:  
  ```docker-machine ip```
  4. Open the website at `http://<docker-machine-ip>`
+
+
+
+docker run --name tifig.net-container -d --env "VIRTUAL_HOST=tifig.dev.ifs.hsr.ch" --env "LETSENCRYPT_HOST=tifig.dev.ifs.hsr.ch" --env "LETSENCRYPT_EMAIL=tsuter@hsr.ch" tonisuter/tifig.net
