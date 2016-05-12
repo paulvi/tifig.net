@@ -179,3 +179,18 @@
         }
     }
 }
+
+.faqs {
+  list-style:none;
+  margin: 0px;
+  padding: 0px;
+
+  li {
+    margin-bottom: 20px;
+
+    .faq-question {
+      font-weight:600;
+      margin-bottom:3px;
+    }
+  }
+}
