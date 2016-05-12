@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Tifig 0.1.0 - An Eclipse-based IDE for Swift "
+title:  "Tifig 0.1.0 - Alpha Release"
 date:   2016-05-10
-author: Toni Suter
+author_name: Toni Suter
+author_twitter_handle: tonisuter
 ---
 Today, I am pleased to release the first alpha version of Tifig, a new Eclipse-based IDE for [Swift](https://swift.org/).
 It is still at a very early stage of development, but it is already possible to write, build and run

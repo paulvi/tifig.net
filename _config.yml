@@ -8,7 +8,7 @@ github_username:  tonisuter
 # Build settings
 markdown: kramdown
 permalink: pretty
-exclude: [README.md, Gemfile, Gemfile.lock]
+exclude: [README.md, Dockerfile]
 gems:
   - octopress-autoprefixer
 

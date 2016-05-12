@@ -11,9 +11,9 @@
 
 ## Deployment
 ```
-docker run --name tifig.net-container -d
-           --env "VIRTUAL_HOST=tifig.dev.ifs.hsr.ch"
-           --env "LETSENCRYPT_HOST=tifig.dev.ifs.hsr.ch"
-           --env "LETSENCRYPT_EMAIL=tsuter@hsr.ch"
+docker run --name tifig.net-container -d \
+           --env "VIRTUAL_HOST=tifig.dev.ifs.hsr.ch" \
+           --env "LETSENCRYPT_HOST=tifig.dev.ifs.hsr.ch" \
+           --env "LETSENCRYPT_EMAIL=tsuter@hsr.ch" \
            tonisuter/tifig.net
 ```
