@@ -1,7 +1,7 @@
 title: Tifig
 email: tonisuter@me.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://tifig.net" # the base hostname & protocol for your site
 twitter_username: tonisuter
 github_username:  tonisuter
 
