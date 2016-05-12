@@ -3,14 +3,26 @@ layout: default
 title: Download
 permalink: /download/
 ---
-<h2>Download</h2>
-
-<h2>Installation Instructions</h2>
-To build programs, Tifig uses the Swift Package Manager.
-
+<h2>Download & Installation Instructions</h2>
 <h3>OS X</h3>
+<ol>
+  <li>Download the current version of Tifig for OS X: <a href="">Alpha Release 0.1.0 (64-Bit)</a></li>
+  <li>Install <a href="https://developer.apple.com/xcode/">Xcode</a></li>
+  <li>Download & install a recent <a href="https://swift.org/download/#snapshots">Swift 3.0 Trunk Development Snapshot</a></li>
+</ol>
 
-<h3>Linux</h3>
-<ul>
-  <li>Download a recent development snapshot from <a href="https://swift.org/download/#releases">https://swift.org/download/#releases</a>.
-</ul>
+
+<h3>Ubuntu</h3>
+<ol>
+  <li>Download the current version of Tifig for Ubuntu: <a href="">Alpha Release 0.1.0 (64-Bit)</a></li>
+  <li>Download a recent <a href="https://swift.org/download/#snapshots">Swift 3.0 Trunk Development Snapshot</a></li>
+  <li>
+    Make sure that the <code>bin</code> subfolder is in your <code>$PATH</code> environment variable. This can be done by adding
+    something like the following line to <code>~/.profile</code>:
+    <pre>export PATH=~/Downloads/swift-DEVELOPMENT-SNAPSHOT-YYYY-MM-DD-a-ubuntu15.10:$PATH</pre>
+  </li>
+</ol>
+
+<p>
+Please note that Tifig won't work with Swift 2.2 or earlier, because those versions don't contain the Swift Package Manager yet.
+</p>
