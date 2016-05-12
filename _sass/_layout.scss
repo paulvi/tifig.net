@@ -78,7 +78,6 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
 }
 
 
@@ -91,8 +90,8 @@
 }
 
 .post-title {
-    font-size: 30px;
-    letter-spacing: -1px;
+    font-size: 24px;
+
     line-height: 1;
 
     @include media-query($on-laptop) {
@@ -141,19 +140,4 @@
       margin-bottom:3px;
     }
   }
-}
-
-
-.downloads {
-  tr {
-    th {
-      font-weight:600;
-      text-align: left;
-      padding-right:20px;
-      padding-bottom:20px;
-    }
-
-    margin-bottom:20px;
-  }
-  margin-bottom:20px;
 }

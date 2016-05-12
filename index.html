@@ -3,27 +3,23 @@ layout: default
 title: Home
 permalink: /
 ---
-
-<div class="home">
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-        <header class="post-header">
-          <h1 class="post-title" itemprop="name headline"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-          <p class="post-meta">
-            <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
-            {% if post.author_name %} •
-              {% if post.author_twitter_handle %}<a href="https://twitter.com/{{ page.author_twitter_handle }}">{% endif %}
-                <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author_name }}</span></span>
-              {% if post.author_twitter_handle %}</a>{% endif %}
-            {% endif %}
-          </p>
-        </header>
-
-        <div class="post-content" itemprop="articleBody">
-          {{ post.content }}
-        </div>
-    </article>
-    {% endfor %}
-  </ul>
-</div>
+<ul class="post-list">
+  {% for post in site.posts %}
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+        <p class="post-meta">
+          <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
+          {% if post.author_name %} •
+            {% if post.author_twitter_handle %}<a href="https://twitter.com/{{ post.author_twitter_handle }}">{% endif %}
+              <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author_name }}</span></span>
+            {% if post.author_twitter_handle %}</a>{% endif %}
+          {% endif %}
+        </p>
+      </header>
+      <div class="post-content" itemprop="articleBody">
+        {{ post.content }}
+      </div>
+  </article>
+  {% endfor %}
+</ul>
