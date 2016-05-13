@@ -9,7 +9,7 @@ Today, I am happy to release the first alpha version of Tifig, a new Eclipse-bas
 It is still at a very early stage of development, but it is already possible to write, build and run
 simple Swift programs.
 
-![Tifig](/images/tifig.png "Tifig")
+![Tifig](/images/tifig-screenshot-pm-example.png "Tifig Screenshot")
 
 My main goal for Tifig is for it to become a solid, extendable, cross-platform Swift IDE with good
 refactoring tools. Since Xcode is heavily focused on the development of iOS and Mac apps, Tifig may
