@@ -72,6 +72,24 @@
     font-size:14px;
 }
 
+.footer-copyright {
+  float:left;
+}
+
+.footer-contact {
+  float:right;
+
+  a {
+    color: #666666;
+    margin-right:5px;
+  }
+
+  a:hover {
+    text-decoration:none;
+    color: darken($brand-color, 10%);
+  }
+}
+
 /**
  * Page content
  */
