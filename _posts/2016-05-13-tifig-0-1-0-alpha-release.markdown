@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tifig 0.1.0 - Alpha Release"
-date:   2016-05-12
+date:   2016-05-13
 author_name: Toni Suter
 author_twitter_handle: tonisuter
 ---
