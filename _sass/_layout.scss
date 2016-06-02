@@ -225,3 +225,21 @@
     }
   }
 }
+
+.release-notes {
+  list-style-type: disc;
+
+  li {
+     b {
+      font-weight:600;
+    }
+  }
+}
+
+.release-note-title {
+  font-weight:600;
+}
+
+.release-note-body {
+  margin-bottom:8px;
+}
