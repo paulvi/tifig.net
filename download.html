@@ -7,25 +7,30 @@ nr: 2
 <h2>Download & Installation</h2>
 <h3>OS X</h3>
 <ol>
-  <li>Download the current version of Tifig for OS X: <a href="http://tifig-downloads.s3.amazonaws.com/tifig-0.2.0-201606021314-macosx.cocoa.x86_64.tar.gz">Alpha Release 0.2.0 (64-Bit)</a></li>
+  <li>
+    Download the current version of Tifig for OS X: <a href="https://tifig-downloads.s3.amazonaws.com/tifig-0.2.0-201606021314-macosx.cocoa.x86_64.tar.gz">Alpha Release 0.2.0 (64-Bit)</a><br/>
+    Alternatively, you can also use <a href="http://brew.sh/">Homebrew</a> to install the newest version of Tifig on your Mac:
+    <pre>
+brew update
+brew cask install tifig</pre>
+  </li>
   <li>Install Java 8 (<a href="http://stackoverflow.com/a/28635465/624631">Instructions for OS X</a>)</li>
-  <li>Install <a href="https://developer.apple.com/xcode/">Xcode</a></li>
-  <li>Install a recent <a href="https://swift.org/download/#snapshots">Swift 3.0 Trunk Development Snapshot</a></li>
+  <li>Install the newest beta of <a href="https://developer.apple.com/xcode/">Xcode 8</a> (includes Swift 3.0 Preview)</li>
 </ol>
 
 
 <h3>Ubuntu</h3>
 <ol>
-  <li>Download the current version of Tifig for Ubuntu: <a href="http://tifig-downloads.s3.amazonaws.com/tifig-0.2.0-201606021314-linux.gtk.x86_64.tar.gz">Alpha Release 0.2.0 (64-Bit)</a></li>
+  <li>Download the current version of Tifig for Ubuntu: <a href="https://tifig-downloads.s3.amazonaws.com/tifig-0.2.0-201606021314-linux.gtk.x86_64.tar.gz">Alpha Release 0.2.0 (64-Bit)</a></li>
   <li>Install Java 8 (<a href="http://askubuntu.com/a/464894">Instructions for Ubuntu</a>)</li>
-  <li>Install a recent <a href="https://swift.org/download/#snapshots">Swift 3.0 Trunk Development Snapshot</a></li>
+  <li>Install the most recent <a href="https://swift.org/download/#previews">Swift 3.0 Preview</a></li>
   <li>
     Make sure that the <code>bin</code> subfolder is in your <code>$PATH</code> environment variable. This can be done by adding
     something like the following line to <code>~/.profile</code>:
-    <pre>export PATH=~/Downloads/swift-DEVELOPMENT-SNAPSHOT-YYYY-MM-DD-a-ubuntu15.10:$PATH</pre>
+    <pre>export PATH=~/Downloads/swift-3.0-PREVIEW-X-ubuntu14.04/usr/bin:$PATH</pre>
   </li>
 </ol>
 
 <p>
-Please note that Tifig won't work with Swift 2.2 or earlier, because those versions don't contain the Swift Package Manager yet.
+Please note that Tifig won't work with Swift 2.3 or earlier, because those versions don't contain the Swift Package Manager yet.
 </p>
